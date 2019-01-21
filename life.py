@@ -29,7 +29,7 @@ from freegames import square
 matriz = {}
 
 def inicializa():
-    "Inicializa as posições aleatóriamente"
+    "Inicializa as posições aleatoriamente"
     for x in range(-200,200,10):
         for y in range(-200,200,10):
             matriz[x,y] = False # Todas vazias
